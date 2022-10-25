@@ -630,6 +630,36 @@ p{
   }
 } 
 
+@media screen and (max-width:385px){
+
+  div.card{
+    left: 26em;
+    top: 2em;
+    position: absolute;
+    margin-top: 53em;
+  }
+  main{
+    position: relative;
+    
+  }
+  #page-container{
+    position: relative;
+    min-height: 200vh;
+  }
+  .fixar-rodape{
+    
+    
+  }
+} @media screen and (max-width:385px){
+
+  h1{
+    font-size: 6em;
+  }
+} 
+
+
+
+
 /*  */
 .card {
   
