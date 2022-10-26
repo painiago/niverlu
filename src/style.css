@@ -113,10 +113,10 @@ html{
 html,
 body{
   background: url(/src/img/imgsl/backgroundcerta.png);
-  background-position: top center;
-  background-size: 120%;
+  background-position: center center;
+  background-size: 100%;
+  background-attachment: fixed;
   
-  background: linear-gradient;
 
   font-size: 14px;
   margin: 0;
@@ -514,12 +514,9 @@ p{
     left: 88%;
     top: -4em;
     position: absolute;
-    margin-top: 55em;
+    margin-top: 56em;
   }
-  main{
-    position: relative;
-    
-  }
+ 
   #page-container{
     position: relative;
     min-height: 190vh;
@@ -532,7 +529,11 @@ p{
     left: 88%;
     
     position: absolute;
-    margin-top: 55em;
+    
+  }
+  #page-container{
+    position: relative;
+    min-height: 200vh;
   }
   }
 
@@ -559,7 +560,10 @@ p{
   main{
     margin-left: 2em;
   }
-
+  #page-container{
+    position: relative;
+    min-height: 200vh;
+  }
 }
 @media screen and (max-width:604px){
 
@@ -569,6 +573,9 @@ p{
   #page-container{
     position: relative;
     min-height: 190vh;
+  }
+  .fixar-rodape{
+    min-height: 100vh;
   }
 
 }
@@ -604,7 +611,8 @@ p{
     left: 98%;
     top: -2em;
     position: absolute;
-    margin-top: 53em;
+    margin-top: 52em;
+    
   }
   main{
     position: relative;
@@ -625,12 +633,9 @@ p{
     left: 28em;
     top: 2em;
     position: absolute;
-    margin-top: 53em;
-  }
-  main{
-    position: relative;
     
   }
+ 
   #page-container{
     position: relative;
     min-height: 200vh;
@@ -647,7 +652,7 @@ p{
     left: 28em;
     top: 2em;
     position: absolute;
-    margin-top: 50em;
+    
 
     max-width: 230px;
     max-height: 320px;
@@ -723,7 +728,7 @@ p{
     left: 26.5em;
     top: 2em;
     position: absolute;
-    margin-top: 53em;
+    
   }
 }
 
@@ -1211,7 +1216,7 @@ strong{
 }
 
 #parabens{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 30px;
   color:rgb(218, 106, 125);
   text-align: center;
