@@ -531,6 +531,10 @@ p{
   padding-top: 10px;
   margin: 0;
 }
+footer.fixar-rodape{
+  margin-top: 37em;
+  
+}
 }
 
 @media screen and (max-width:587px){
@@ -604,15 +608,31 @@ p{
     position: relative;
     
   }
+  footer.fixar-rodape{
+    
+    background-color: #c79d9d;
+    
+    width: 42vh;
+    height: 100%;  
+    
+  }
  
 }
 @media screen and (max-width:450px){
 
   footer.fixar-rodape{
     margin-top: 37em;
+    
+    background-color: #c79d9d;
+    
+    
+    width: 42vh;
+    height: 100%;  
+    
   }
   
 }
+
 
 @media screen and (max-width:385px){
 
