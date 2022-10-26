@@ -112,18 +112,17 @@ html{
 }
 html,
 body{
-  background-image: url(/src/img/imgsl/backgroundcerta.png);
+  background: url(/src/img/imgsl/backgroundcerta.png);
   background-position: top center;
   background-size: 120%;
   
-  background-color: #ffffff;
-  font-family: 'Great Vibes', cursive;
+  background: linear-gradient;
 
   font-size: 14px;
   margin: 0;
   padding: 0;
 
-  
+
 
 }
 
@@ -513,9 +512,9 @@ p{
 
   div.card{
     left: 88%;
-    top: -2em;
+    top: -4em;
     position: absolute;
-    margin-top: 53em;
+    margin-top: 55em;
   }
   main{
     position: relative;
@@ -527,6 +526,15 @@ p{
   }
  
 }
+@media screen and (max-width:587px){
+
+  div.card{
+    left: 88%;
+    
+    position: absolute;
+    margin-top: 55em;
+  }
+  }
 
  @media screen and (max-width:708px){
 
@@ -560,7 +568,7 @@ p{
   }
   #page-container{
     position: relative;
-    min-height: 100vh;
+    min-height: 190vh;
   }
 
 }
@@ -570,6 +578,7 @@ p{
     width: 70vw;
     margin-left: 10;
     height: 40vw;
+   
     
   }
   .entrada{
@@ -585,7 +594,7 @@ p{
   }
   #page-container{
     position: relative;
-    min-height: 190vh;
+    min-height: 195vh;
   }
 } 
 
@@ -638,7 +647,7 @@ p{
     left: 28em;
     top: 2em;
     position: absolute;
-    margin-top: 53em;
+    margin-top: 50em;
 
     max-width: 230px;
     max-height: 320px;
@@ -1202,7 +1211,7 @@ strong{
 }
 
 #parabens{
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
   color:rgb(218, 106, 125);
   text-align: center;
