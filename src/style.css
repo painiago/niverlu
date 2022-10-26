@@ -46,10 +46,8 @@
 
 body * {
   font-family: "Apple Chancery", cursive;
-  line-height: 160%;
-  
-  
-  
+  line-height: 1.5em;
+  margin: 0;
   
 }
 
@@ -63,11 +61,11 @@ body{
   background-size: 100%;
   background-attachment: fixed;
 
+  margin: 0;
   font-size: 14px;
   margin: 0;
   padding: 0;
 
-  
 
 }
 .grandiente{
@@ -81,7 +79,7 @@ body{
     background-position: 0% 50% ;
   }
   50%{
-    background-position: 100% 50%;
+    background-position: 90% 50%;
 
   }
   100%{
@@ -433,25 +431,48 @@ section{
 /* FOOTERS */
 #page-container{
   position: relative;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 #content-wrap {
   padding-bottom: 2.5rem;    /* altura do rodapé */
 }
 
 footer.fixar-rodape {
-   
+  background-color: #c79d9d;
   position: relative;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;  
-
+  height: 100%;  
+  margin: 0 ;
 }
+.container-x1{
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin: 0;
+  
+}
+@media screen and (max-width:820px){
+  footer.fixar-rodape {
+    position: relative;
+    display: block;
+    margin-top: 20em;
+    
+  }
+}
+@media screen and (max-width:768px){
+  footer.fixar-rodape {
+    position: relative;
+    display: block;
+    margin-top: 40em;
+    
+  }
+}
+
 p{
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
-
 
 /* CARD SE MOVENDO */
 
@@ -482,10 +503,6 @@ p{
     margin-top: 56em;
   }
  
-  #page-container{
-    position: relative;
-    min-height: 190vh;
-  }
   .grandiente{
     background: linear-gradient(45deg,#d39ca4,#b48581,#70454e,#ff2200);
     background-size: 300% 300%;
@@ -502,6 +519,18 @@ p{
     background-position: 0% 50%;
   }
 }
+.fixar-rodape{
+  background-color: #c99c9c;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+.fixar-rodape{
+  
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  margin: 0;
+}
 }
 
 @media screen and (max-width:587px){
@@ -512,20 +541,12 @@ p{
     position: absolute;
     
   }
-  #page-container{
-    position: relative;
-    min-height: 200vh;
-  }
   }
 
  @media screen and (max-width:708px){
 
   main{
     margin-left: 6em;
-  }
-  #page-container{
-    position: relative;
-    min-height: 190vh;
   }
 
 }
@@ -541,19 +562,11 @@ p{
   main{
     margin-left: 2em;
   }
-  #page-container{
-    position: relative;
-    min-height: 200vh;
-  }
 }
 @media screen and (max-width:604px){
 
   main{
     margin-left: 1em;
-  }
-  #page-container{
-    position: relative;
-    min-height: 190vh;
   }
 
 }
@@ -563,7 +576,6 @@ p{
     width: 70vw;
     margin-left: 10;
     height: 40vw;
-   
     
   }
   .entrada{
@@ -576,10 +588,6 @@ p{
     width: 70vw;
     margin-top: 0;
     
-  }
-  #page-container{
-    position: relative;
-    min-height: 195vh;
   }
 } 
 
@@ -596,10 +604,6 @@ p{
     position: relative;
     
   }
-  #page-container{
-    position: relative;
-    min-height: 190vh;
-  }
  
 }
 @media screen and (max-width:450px){
@@ -607,9 +611,8 @@ p{
   footer.fixar-rodape{
     margin-top: 37em;
   }
+  
 }
-
-
 
 @media screen and (max-width:385px){
 
@@ -617,15 +620,6 @@ p{
     left: 28em;
     top: 2em;
     position: absolute;
-    
-  }
- 
-  #page-container{
-    position: relative;
-    min-height: 200vh;
-  }
-  .fixar-rodape{
-    
     
   }
 } 
@@ -645,25 +639,15 @@ p{
     position: relative;
     
   }
-  #page-container{
-    position: relative;
-    min-height: 200vh;
-  }
-  .fixar-rodape{
-    
-    
-  }
+  
 }
- @media screen and (max-width:385px){
 
-  h1{
-    font-size: 6em;
-  }
-}
 
 /* CARD INSTA */
 @media screen and (max-width:385px){
-
+  h1{
+    font-size: 6em;
+  }
   .foto-post{
     max-width: 150px;
     max-height:150px;
@@ -714,6 +698,7 @@ p{
     position: absolute;
     
   }
+
 }
 
 
