@@ -100,8 +100,10 @@ button:focus-visible {
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 body * {
-  font-family: 'Great Vibes', cursive;
+  font-family: "Apple Chancery", cursive;
   line-height: 160%;
+  
+  
   
 }
 
@@ -112,16 +114,16 @@ html,
 body{
   background-image: url(/src/img/imgsl/backgroundcerta.png);
   background-position: top center;
-  background-size: 100% auto;
+  background-size: 120%;
   
-  background-color: #000000;
+  background-color: #ffffff;
   font-family: 'Great Vibes', cursive;
 
   font-size: 14px;
   margin: 0;
   padding: 0;
 
-  height: 100%;
+  
 
 }
 
@@ -159,7 +161,7 @@ height: 100px;
 /* TOPO NOME LUCIANA */
 
 h1{
-  font-family: 'Great Vibes', cursive;
+  font-family: sans-serif;
   color: rgb(219, 145, 157);
   font-size: 100px;
   text-align: center;
@@ -521,7 +523,7 @@ p{
   }
   #page-container{
     position: relative;
-    min-height: 150vh;
+    min-height: 190vh;
   }
  
 }
@@ -533,7 +535,7 @@ p{
   }
   #page-container{
     position: relative;
-    min-height: 150vh;
+    min-height: 190vh;
   }
 
 }
@@ -558,7 +560,7 @@ p{
   }
   #page-container{
     position: relative;
-    min-height: 150vh;
+    min-height: 100vh;
   }
 
 }
@@ -583,7 +585,7 @@ p{
   }
   #page-container{
     position: relative;
-    min-height: 110vh;
+    min-height: 190vh;
   }
 } 
 
@@ -633,10 +635,13 @@ p{
 @media screen and (max-width:385px){
 
   div.card{
-    left: 26em;
+    left: 28em;
     top: 2em;
     position: absolute;
     margin-top: 53em;
+
+    max-width: 230px;
+    max-height: 320px;
   }
   main{
     position: relative;
@@ -650,12 +655,68 @@ p{
     
     
   }
-} @media screen and (max-width:385px){
+}
+ @media screen and (max-width:385px){
 
   h1{
     font-size: 6em;
   }
-} 
+}
+
+/* CARD INSTA */
+@media screen and (max-width:385px){
+
+  .foto-post{
+    max-width: 150px;
+    max-height:150px;
+  }
+  .post-foto{
+    max-width: 150px;
+    max-height: 150px;
+  }
+  .caixa-likes-comments{
+    max-width: 250px;
+    max-height: 150px;
+    
+  }
+  .animacao-coracao{
+   
+    position: absolute;
+    margin-top: -78px;
+    left: -5px;
+    z-index: 1;
+  }
+  .animacao-card-icone-heading{
+    left: 0;
+  }
+  .animacao-card-icone-send{
+    left: -5px;
+
+  }
+  .animacao-card-icone-comentario{
+    left: 2px;
+
+  }
+  .animacao-card-icone-like-comments-viwes{
+    
+    
+  }
+  .caixa-likes-comments{
+    font-size: 0.7em;
+    margin-top: -17px;
+  }
+ 
+}
+
+@media screen and (max-width:300px){
+
+  div.card{
+    left: 26.5em;
+    top: 2em;
+    position: absolute;
+    margin-top: 53em;
+  }
+}
 
 
 
@@ -814,12 +875,14 @@ p{
 }
 /* animção like coração - FIXED no card*/
 .animacao-card-fixed{
-  position: absolute;
-  margin-top: 105%;
-  padding: 10px;
-  width: 40px;
+  position: relative;
+  margin-top: 0;
+  padding: 0;
+  
   /* border: 2px solid black; */
-  height: 40px;
+  
+  left: 20px;
+  top: 2px;
   
 }
 
@@ -902,12 +965,13 @@ p{
 
 /* animção like coração - FIXED no card*/
 .animacao-card-fixed2{
-  position: absolute;
-  margin-top: 105%;
-  padding: 10px;
-  width: 40px;
+  position: relative;
+  margin-top: 0;
+  padding: 0;
+  left: 18px;
+ 
   /* border: 2px solid black; */
-  height: 40px;
+  
   
 }
 
@@ -995,13 +1059,10 @@ p{
 
 /* animção like coração - FIXED no card*/
 .animacao-card-fixed3{
-  position: absolute;
-  margin-top: 105%;
-  padding: 10px;
-  width: 40px;
+  position: relative;
+  margin-top: 10%;
+  padding: 0;
   /* border: 2px solid black; */
-  height: 40px;
-  
 }
 
 .heart-fixed3 {
@@ -1010,7 +1071,7 @@ p{
   top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 18px;
   background-color: rgb(255, 0, 43);
   height: 12px;
   width: 12px;
@@ -1082,14 +1143,22 @@ p{
 
 
 /* animção like coração - icone comentario card*/
-.animacao-card-icone-comentario{
+.animacao-coracao{
   position: absolute;
-  margin-top: 106%;
+  display: flex;
+  top: 20em;
+  
+}
+.animacao-card-icone-comentario{
+  position: relative;
+  margin-top: 0;
   padding: 0;
-  width: 40px;
+  width: 30px;
   /* border: 2px solid black; */
-  height: 40px;
-  margin-left: 16%;
+  height: 30px;
+  margin-left: 40px;
+ 
+
   
 }
 
@@ -1101,25 +1170,25 @@ p{
 
 /* animção like coração - icone send*/
 .animacao-card-icone-send{
-  position: absolute;
-  margin-top: 106%;
+  position: relative;
+  margin-top: 0;
   padding: 0;
-  width: 40px;
+  width: 30px;
   /* border: 2px solid black; */
-  height: 40px;
-  margin-left: 30%;
+  height: 30px;
+  margin-left: 10px;
   
 }
 
 /* animção like coração - icone heading*/
 .animacao-card-icone-heading{
-  position: absolute;
-  margin-top: 106%;
+  position: relative;
+  margin-top: 0;
   padding: 0;
-  width: 40px;
+  width: 30px;
   /* border: 2px solid black; */
-  height: 40px;
-  margin-left: 80%;
+  height: 30px;
+  margin-left: 50%;
   
 }
 
@@ -1132,7 +1201,7 @@ strong{
   color: #000000;
 }
 
-.parabens{
+#parabens{
   font-family: 'Great Vibes', cursive;
   font-size: 30px;
   color:rgb(218, 106, 125);
