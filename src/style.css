@@ -547,33 +547,6 @@ footer.fixar-rodape{
   }
   }
 
- @media screen and (max-width:708px){
-
-  main{
-    margin-left: 6em;
-  }
-
-}
-@media screen and (max-width:660px){
-
-  main{
-    margin-left: 3em;
-  }
-
-}
-@media screen and (max-width:616px){
-
-  main{
-    margin-left: 2em;
-  }
-}
-@media screen and (max-width:604px){
-
-  main{
-    margin-left: 1em;
-  }
-
-}
 @media screen and (max-width:576px){
   footer.fixar-rodape{
     margin-top: 45em;
@@ -606,49 +579,21 @@ footer.fixar-rodape{
     margin-top: 52em;
     
   }
-  main{
-    position: relative;
+}
+@media screen and (max-width:1024px){
+
+  div.card{
+    left: 92%;
+    top: -2em;
+    position: absolute;
+    margin-top: 52em;
     
   }
-  footer.fixar-rodape{
-    
-    background-color: #c79d9d;
-    
-    width: 42vh;
-    height: 100%;  
-    
-  }
- 
 }
 
-
-@media screen and (max-width:550px){
-
-  footer.fixar-rodape{
-    margin-top: 47em;
-    
-    background-color: #c79d9d;
-    
-    
-    width: 75vh;
-    height: 100%;  
-    
-  }
-  
-}
 
 @media screen and (max-width:450px){
 
-  footer.fixar-rodape{
-    margin-top: 37em;
-    
-    background-color: #c79d9d;
-    
-    
-    width:48vh;
-    height: 100%;  
-    
-  }
   div.card{
     left: 29em;
     position: absolute;
@@ -656,17 +601,6 @@ footer.fixar-rodape{
   }
   
 }
-@media screen and (max-width:385px){
-
-  div.card{
-    left: 28em;
-    top: 2em;
-    position: absolute;
-    
-  }
-} 
-
-
 
 @media screen and (max-width:385px){
 
@@ -679,14 +613,7 @@ footer.fixar-rodape{
     max-width: 230px;
     max-height: 320px;
   }
-  footer.fixar-rodape{
-   
-
-    width: 58vh;
-    height: 100%;  
-    
-  }
-  
+ 
 }
 
 
