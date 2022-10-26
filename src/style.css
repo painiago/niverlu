@@ -575,7 +575,9 @@ footer.fixar-rodape{
 
 }
 @media screen and (max-width:576px){
-
+  footer.fixar-rodape{
+    margin-top: 45em;
+  }
   .channel-list video{
     width: 70vw;
     margin-left: 10;
@@ -665,6 +667,7 @@ footer.fixar-rodape{
 } 
 
 
+
 @media screen and (max-width:385px){
 
   div.card{
@@ -677,7 +680,8 @@ footer.fixar-rodape{
     max-height: 320px;
   }
   footer.fixar-rodape{
-  
+   
+
     width: 58vh;
     height: 100%;  
     
