@@ -192,7 +192,7 @@ main{
   max-width: 500px;
   width: 100%;
   margin: 32px auto;
-  
+ 
   display: grid;
   gap: 5px;
 
@@ -493,9 +493,25 @@ p{
   background-color: white;
 }
 
+.fill{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.colors{
+  width: 100%;
+  height: 100%;
+  background-color: #43E7AA;
+}
+
+
+
 /* RESPONSIVE */
 @media screen and (max-width:960px){
-
+  main{
+    margin-left: 10px;
+  }
   div.card{
     left: 88%;
     top: -4em;
@@ -605,7 +621,7 @@ footer.fixar-rodape{
 @media screen and (max-width:385px){
 
   div.card{
-    left: 30em;
+    left: 28em;
     top: 2em;
     position: absolute;
     
@@ -1166,7 +1182,7 @@ strong{
   text-align: center;
 
   margin-bottom: 20px;
-  margin-top: 10px;
+  margin-top: 100px;
 }
 
 /* AJUSTES LIKE COMMENTS*/
