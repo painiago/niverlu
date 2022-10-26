@@ -70,7 +70,7 @@ body{
 }
 .grandiente{
   background: linear-gradient(45deg,#dda8b0,#ae736f,#70454e,#4e2d28);
-  background-size: 300% 300%;
+  background-size: 500% 500%;
   animation: colors-grad 5s ease infinite;
 }
 
@@ -79,7 +79,7 @@ body{
     background-position: 0% 50% ;
   }
   50%{
-    background-position: 90% 50%;
+    background-position: 50% 30%;
 
   }
   100%{
@@ -504,7 +504,7 @@ p{
   }
  
   .grandiente{
-    background: linear-gradient(45deg,#d39ca4,#b48581,#70454e,#ff2200);
+    background: linear-gradient(45deg,#d39ca4,#b48581,#70454e,#921805);
     background-size: 300% 300%;
     animation: colors-grad 5s ease infinite;
   }
@@ -513,7 +513,7 @@ p{
     background-position: 0% 50%;
   }
   50%{
-    background-position: 100% 50%;
+    background-position: 50% 50%;
   }
   100%{
     background-position: 0% 50%;
@@ -618,6 +618,23 @@ footer.fixar-rodape{
   }
  
 }
+
+
+@media screen and (max-width:550px){
+
+  footer.fixar-rodape{
+    margin-top: 47em;
+    
+    background-color: #c79d9d;
+    
+    
+    width: 75vh;
+    height: 100%;  
+    
+  }
+  
+}
+
 @media screen and (max-width:450px){
 
   footer.fixar-rodape{
@@ -626,14 +643,17 @@ footer.fixar-rodape{
     background-color: #c79d9d;
     
     
-    width: 42vh;
+    width:48vh;
     height: 100%;  
+    
+  }
+  div.card{
+    left: 29em;
+    position: absolute;
     
   }
   
 }
-
-
 @media screen and (max-width:385px){
 
   div.card{
@@ -644,10 +664,11 @@ footer.fixar-rodape{
   }
 } 
 
+
 @media screen and (max-width:385px){
 
   div.card{
-    left: 28em;
+    left: 30em;
     top: 2em;
     position: absolute;
     
@@ -655,8 +676,10 @@ footer.fixar-rodape{
     max-width: 230px;
     max-height: 320px;
   }
-  main{
-    position: relative;
+  footer.fixar-rodape{
+  
+    width: 58vh;
+    height: 100%;  
     
   }
   
