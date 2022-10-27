@@ -40,12 +40,12 @@
   div{
     /* border: 2px solid blue; */
   }
-  /* body{
-    background-image: url('./img/imgsl/backgroundcerta.png');
+  body{
+    background-image: url('~@/assets/backgroundcerta.png');
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
     
-  } */
+  }
   
 </style>
