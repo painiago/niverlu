@@ -40,17 +40,6 @@ typeWriter(titulo);
   filter: drop-shadow(0 0 2em #42b883aa);
 }
 
-div{
-    /* border: 2px solid blue; */
-  }
-  /* body{
-    background-image: url('/assets/backgroundcerta.svg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-    
-  }
-   */
 </style>
 
 
