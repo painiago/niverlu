@@ -21,6 +21,7 @@ typeWriter(titulo);
 >
 
 <style scoped lang="scss" > 
+@import url(./assets/style.scss);
 
 
 .image{
