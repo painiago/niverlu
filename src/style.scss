@@ -1,4 +1,4 @@
-$fontSize: 6rem;
+$fontSize: 80px;
 
 
 
@@ -11,31 +11,23 @@ div {
   transform-style: preserve-3d;
   position: relative;
   perspective: 2000px;
-  width: 300px;
-  background-color: red;
+  
+  
   .text {
     
-    left: 6em;
-    margin-top: 50px;
-    position: absolute;
+    position: relative;
     font-size: $fontSize;
     color: #fff;
-    line-height: $fontSize;
     font-family: 'Anton', sans-serif;
     padding: 0;
     mix-blend-mode: screen;
     transform-style: preserve-3d;
-    width: 770px;
+    
     @for $i from 1 through 26 {
       $key: $i - 1;
       $param: 5;
       &:nth-child(#{$i}) {
-        clip-path: polygon(
-          -30% + ($key * $param) 0,
-          -20% + ($key * $param) 0,
-          20% + ($key * $param) 100%,
-          0% + ($key * $param) 100%
-        );
+        clip-path: polygon();
         animation: wave 2000ms $key * 200 - 10000ms ease-in-out infinite alternate;
       }
     }
@@ -44,11 +36,16 @@ div {
 
 @keyframes wave {
   0% {
-    transform: translate(-50%, -50%) scale(0.9) rotateX(20deg) rotateY(20deg) rotateZ(0deg);
-    color: rgb(177, 94, 0);
+    transform:  scale(0.9) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    color: rgb(87, 38, 5);
+  }
+  50%{
+    transform:  scale(1.1) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    color: rgb(255, 255, 255);
   }
   100% {
-    transform: translate(-50%, -50%) scale(1.1) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-    color: rgb(255, 234, 50);
+
+    transform:  scale(1.1) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    color: rgb(255, 255, 255);
   }
 }
