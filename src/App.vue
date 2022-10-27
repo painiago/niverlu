@@ -4,7 +4,7 @@
 </script>
 
 <template>
-  <!-- <div :style="image"></div> -->
+   
   <contador msg="Parabéns" />
 </template>
 
@@ -36,12 +36,12 @@
   filter: drop-shadow(0 0 2em #42b883aa);
 }
 </style>
-<style lang="scss">
+<style scroped lang="scss">
   div{
     /* border: 2px solid blue; */
   }
   body{
-    background-image: url('/src/assets/backgroundcerta.png');
+    background-image: url('/assets/backgroundcerta.svg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
