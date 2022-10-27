@@ -20,7 +20,9 @@ typeWriter(titulo);
 </template>
 >
 
-<style scoped lang="scss"> 
+<style scoped lang="scss" > 
+
+
 .image{
   position: absolute;
   margin-top: 100em;
