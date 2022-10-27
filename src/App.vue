@@ -1,9 +1,3 @@
-
-<script setup>
-// import cotador from '.components/contador.vue'
-
-</script>
-
 <script>
 function typeWriter (elemento){
   const textArray = elemento.innerHTML.split('');  //.split para separar as letras
@@ -22,20 +16,11 @@ typeWriter(titulo);
 
 <template>
    
-  <contador msg="Parabéns" />
+  <contador msg="Parabéns"/>
 </template>
+>
 
-<!-- <script>
-  export default {
-    data(){
-      return{
-        image: {backgroundImage: "url(/src/img/imgsl/backgroundcerta.png)"}
-      };
-    }
-  };
-</script> -->
-
-<style scoped>
+<style scoped lang="scss"> 
 .image{
   position: absolute;
   margin-top: 100em;
@@ -52,17 +37,18 @@ typeWriter(titulo);
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
-</style>
-<style scroped lang="scss">
-  div{
+
+div{
     /* border: 2px solid blue; */
   }
-  body{
+  /* body{
     background-image: url('/assets/backgroundcerta.svg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
     
   }
-  
+   */
 </style>
+
+

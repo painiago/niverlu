@@ -57,34 +57,60 @@ html{
 }
 html,
 body{
-  /* background-image: url('/src/img/imgsl/backgroundcerta.png'); */
-  background-position: center center;
-  background-size: 100%;
+  
   background-attachment: fixed;
   margin: 0;
   font-size: 14px;
   padding: 0;
   position: relative;
-  background-attachment: fixed ;
+  
 
 
 }
-.grandiente{
+@media screen and (max-width:960px){
+  .grandiente{
   background: linear-gradient(45deg,#dda8b0,#ae736f,#70454e,#4e2d28);
   background-size: 500% 500%;
-  animation: colors-grad 5s ease infinite;
+  animation: grad-res 5s ease infinite;
+  }
+  
 }
-
-@keyframes colors-grad {
+@keyframes grad-res {
   0%{
     background-position: 0% 50% ;
   }
   50%{
-    background-position: 50% 30%;
+    background-position: 80% 50%;
 
   }
   100%{
     background-position: 0% 50%
+
+  }
+}
+
+
+#cor-grad{
+  background: linear-gradient(45deg,#dda8b0,#ae736f,#70454e,#4e2d28);
+  background-size: 500% 500%;
+  animation: color-grad 5s ease infinite;
+  }
+
+#cor-grad{
+  background: linear-gradient(45deg, #dda8b0, #ae736f, #70454e, #922f1f);
+  background-size: 300% 300%;
+  animation: color-graad 5s ease infinite;
+}
+
+@keyframes color-graad{
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 90% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
 
   }
 }
@@ -540,23 +566,8 @@ p{
     position: absolute;
     margin-top: 56em;
   }
-/*  
-  .grandiente{
-    background: linear-gradient(45deg,#ffd3d3,#b48581,#70454e,#921805);
-    background-size: 300% 300%;
-    animation: colors-grad 5s ease infinite;
-  }
-  @keyframes grandiente {
-  0%{
-    background-position: 0% 50%;
-  }
-  50%{
-    background-position: 50% 50%;
-  }
-  100%{
-    background-position: 0% 50%;
-  }
-} */
+ 
+  
 .fixar-rodape{
   background-color: #c99c9c;
   padding-left: 16px !important;
