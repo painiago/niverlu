@@ -1,16 +1,28 @@
 <script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 // import cotador from '.components/contador.vue'
-
 </script>
 
 <template>
-  
+  <!-- <div :style="image"></div> -->
   <contador msg="Parabéns" />
 </template>
 
+<!-- <script>
+  export default {
+    data(){
+      return{
+        image: {backgroundImage: "url(/src/img/imgsl/backgroundcerta.png)"}
+      };
+    }
+  };
+</script> -->
+
 <style scoped>
+.image{
+  position: absolute;
+  margin-top: 100em;
+}
+
 .logo {
   height: 6em;
   padding: 1em;
@@ -24,5 +36,14 @@
 }
 </style>
 <style lang="scss">
-  @import "style.scss";
+  div{
+    /* border: 2px solid blue; */
+  }
+  body{
+    background-image: url('./img/imgsl/backgroundcerta.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    
+  }
 </style>

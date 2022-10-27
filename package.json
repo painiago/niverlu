@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "babel": "^6.23.0",
-    "vue": "^3.2.37"
+    "vue": "^3.2.37",
+    "webpack": "^5.74.0"
   },
   "devDependencies": {
     "@vitejs/plugin-basic-ssl": "^0.1.2",
