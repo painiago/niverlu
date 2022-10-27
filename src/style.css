@@ -45,6 +45,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 body * {
+  
   font-family: "Apple Chancery", cursive;
   line-height: 1.5em;
   margin: 0;
@@ -56,10 +57,10 @@ html{
 }
 html,
 body{
-  /* background-image: url(/src/img/imgsl/backgroundcerta.png);
+  background-image: url('/src/img/imgsl/backgroundcerta.png');
   background-position: center center;
   background-size: 100%;
-  background-attachment: fixed; */
+  background-attachment: fixed;
   margin: 0;
   font-size: 14px;
   padding: 0;
@@ -523,8 +524,6 @@ p{
   background-position: center;
   background-repeat: no-repeat;
 }
-
-
 
 
 /* RESPONSIVE */
