@@ -67,6 +67,16 @@ body{
 
 
 }
+#musica{
+  background-color: #16f7ff;
+  margin: 0;
+  padding: 0;
+  left: 502px;
+  width: 200px;
+  height: 100px;
+  color: #16f7ff;
+
+}
 @media screen and (max-width:960px){
   .grandiente{
   background: linear-gradient(45deg,#dda8b0,#ae736f,#70454e,#4e2d28);
