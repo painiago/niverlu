@@ -12,12 +12,3 @@ const titulo = document.querySelector('#feliz');
 typeWriter(titulo);
 
 // var vid = document.getElementById('#videoLu').play();
-
-var autoPlayVideo = document.getElementById("#videoLu");
-    autoPlayVideo.oncanplaythrough = function() {
-        autoPlayVideo.muted = true;
-        autoPlayVideo.play();
-        autoPlayVideo.pause();
-        autoPlayVideo.play();
-    }
-
