@@ -17,10 +17,9 @@
 </script>
 
 <template>
-   
-  <contador msg="Parabéns"/>
+   <contador msg="Parabéns"/>
 </template>
->
+
 
 <style scoped lang="scss" > 
 @import url(./assets/style.scss);
